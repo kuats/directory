@@ -17,11 +17,11 @@
         </form>
         <form class="user-post-form">
           <h2>Создать пользователя</h2>
-          <UserPost />
+          <CreateUser />
         </form>
         <form class="user-patch-form">
           <h2>Обновить пользователя</h2>
-          <UserPatch />
+          <UpdateUser />
         </form>
       </template>
       <template v-else>
@@ -34,18 +34,18 @@
 <script>
 import UserList from './components/UserList.vue';
 import SingleUser from './components/SingleUser.vue';
-import UserPost from './components/UserPost.vue';
+import CreateUser from './components/CreateUser.vue';
 import UserLogin from './components/UserLogin.vue';
-import UserPatch from './components/UpdateUser.vue';
+import UpdateUser from './components/UpdateUser.vue';
 
 export default {
   name: 'App',
   components: {
     UserList,
     SingleUser,
-    UserPost,
+    CreateUser,
     UserLogin,
-    UserPatch
+    UpdateUser
   },
   data() {
     return {
