@@ -36,7 +36,7 @@ import UserList from './components/UserList.vue';
 import SingleUser from './components/SingleUser.vue';
 import UserPost from './components/UserPost.vue';
 import UserLogin from './components/UserLogin.vue';
-import UserPatch from './components/UserPatch.vue';
+import UserPatch from './components/UpdateUser.vue';
 
 export default {
   name: 'App',
